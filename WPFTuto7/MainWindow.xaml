@@ -16,9 +16,9 @@
             <RowDefinition/>
             <RowDefinition/>
         </Grid.RowDefinitions>
-        <userControls:ClearableTextbox Grid.Row="1" Width="250" Height="40"/>
-        <userControls:ClearableTextbox Grid.Row="2" Width="250" Height="40"/>
-        <userControls:ClearableTextbox Grid.Row="3" Width="250" Height="40"/>
-        <userControls:ClearableTextbox Grid.Row="4" Width="250" Height="40"/>
+        <userControls:ClearableTextbox Grid.Row="1" Width="250" Height="40" Placeholder="First Name"/>
+        <userControls:ClearableTextbox Grid.Row="2" Width="250" Height="40" Placeholder="Last Name"/>
+        <userControls:ClearableTextbox Grid.Row="3" Width="250" Height="40" Placeholder="Age"/>
+        <userControls:ClearableTextbox Grid.Row="4" Width="250" Height="40" Placeholder="Email"/>
     </Grid>
 </Window>

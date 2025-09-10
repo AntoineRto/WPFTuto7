@@ -8,7 +8,7 @@
              d:DesignHeight="40" d:DesignWidth="250">
     <Grid Background="White">
         <TextBox x:Name="txtInput" VerticalContentAlignment="Center" FontSize="16" FontWeight="Light" Background="Transparent" TextChanged="txtInput_TextChanged"/>
-        <TextBlock x:Name="tbPlaceHolder" Text="Hello there" FontSize="16" FontWeight="Light" VerticalAlignment="Center" Margin="5, 0, 0, 0" Foreground="DarkGray" Panel.ZIndex="-1" Background="Transparent"/>
+        <TextBlock x:Name="tbPlaceHolder" Text="{Binding Placeholder}" FontSize="16" FontWeight="Light" VerticalAlignment="Center" Margin="5, 0, 0, 0" Foreground="DarkGray" Panel.ZIndex="-1" Background="Transparent"/>
         <Button x:Name="btnClear" Width="30" HorizontalAlignment="Right" Content="X" Background="Transparent" Foreground="LightGray" BorderThickness="0" Click="btnClear_Click"/>
     </Grid>
 </UserControl>

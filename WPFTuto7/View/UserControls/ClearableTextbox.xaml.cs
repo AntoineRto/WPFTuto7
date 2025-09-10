@@ -28,7 +28,12 @@ namespace WPFTuto7.View.UserControls
         public string Placeholder
         {
             get { return placeholder; }
-            set { placeholder = value; }
+            set 
+            { placeholder = value;
+                
+                //Mauvaise pratique à priori
+                tbPlaceHolder.Text = placeholder;
+            }
         }
 
 
